@@ -6,7 +6,7 @@ using namespace std;
 int add(int n1, int n2) {
 	return n1 + n2;
 }
-int main() {
+int main2() {
 
 	// *** 산술 연산자 Arithmetic Operator ***
 	int x = 1;
