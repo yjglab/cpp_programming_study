@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int main24() {
 	using namespace std;
 
 	// *** 리터럴 상수 literal constants ***
@@ -28,6 +28,6 @@ int main() {
 	const int price_per_item = 10;
 	int num_items = 123;
 	int price = num_items * price_per_item; // magic number의 사용은 권장하지 않음. 상수로라도 표현하기.
-	
+
 	return 0;
 }
