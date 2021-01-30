@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits>
 
-int main() {
+int main4() {
 	using namespace std;
 
 	// *** char Datatype ***
@@ -55,6 +55,6 @@ int main() {
 	// 
 	wchar_t c6; // window character | 잘 사용하지 않음.
 	char16_t c7; // ASCII 외 다른 문자(유니코드) 출력
-	char32_t c7; // ASCII 외 다른 문자(유니코드) 출력
+	char32_t c8; // ASCII 외 다른 문자(유니코드) 출력
 	return 0;
 }
