@@ -7,6 +7,7 @@ int main2() {
 
 	std::int16_t i(5); // typedef short int16_t
 	std::int8_t myint = 65; // typedef signed char int8_t
+	cout << i << endl; // 5
 	cout << myint << endl; // A
 
 	std::int_fast8_t fi(5); // typedef signed char int_fast8_t (8bit datatype중 가장 빠른) | 1byte

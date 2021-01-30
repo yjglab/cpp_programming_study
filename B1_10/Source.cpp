@@ -6,7 +6,7 @@ bool isEqual(int a, int b) {
 	return result;
 }
 
-int main() {
+int main2() {
 	using namespace std;
 
 	// *** Boolean Datatype
