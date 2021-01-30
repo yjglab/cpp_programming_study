@@ -32,5 +32,32 @@ int main() {
 	q = q++; 
 
 	cout << q << endl;
+
+	// sizeof() operator
+	cout << sizeof(float) << endl; // 4 (32bit)
+	float f;
+	cout << sizeof f << endl; // 4
+
+	// comma operator
+	int c = 3;
+	int d = 10;
+	int r = (++c, ++d); // 왼쪽계산(++c) => 오른쪽계산(++d) => 오른쪽값을 r에 할당
+	cout << c << " " << d << " " << r << endl; // 4 11 11 
+
+	int w = 1, u = 10;
+	int e;
+	e = w, u;
+	cout << e << endl; // 1 | comma 연산자는 = 연산자보다 후순위.
+	e = (w, u);
+	cout << e << endl; // 10
+
+	// 조건부 연산자 conditional operator ( == arithmetric if)
+	bool onSale = true;
+	const int price = (onSale) ? 20 : 30;
+	cout << price << endl; // 20
+	
+	// 연산자 사용 중 오류가 나는 경우 연산순위를 생각하기
+	cout << ((5 % 2 == 0) ? "even" : "odd");
+
 	return 0;
 }
