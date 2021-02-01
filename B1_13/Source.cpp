@@ -27,7 +27,9 @@ namespace work2 {
 }
 
 //
-int main() {
+int main2() {
+	// *** 지역변수 *** (linkage가 필요 없음)
+
 	int apple = 5;
 	cout << apple << endl;
 	{
