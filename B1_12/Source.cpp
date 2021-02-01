@@ -2,7 +2,7 @@
 #include <bitset> // 2진수로 변환하여 출력해주는
 using namespace std;
 
-int main() {
+int main2() {
 	
 	/*
 	*** 비트단위 연산자 bitwise operators ***
