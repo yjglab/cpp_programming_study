@@ -32,7 +32,7 @@ int main() {
 	!(b1 || b2); // 분배법칙이
 	!b1 || !b2; // 적용되지 않음 => 이 문장은 !b1 && !b2 로 변환됨
 
-	// XOR operator(C++에는 존재하지 않는 연산자)
+	// XOR operator(C++에는 존재하지 않는 연산자(bitwise 연산자 ^로는 존재)
 	// false false -> false
 	// true false  -> true
 	// false true  -> true
