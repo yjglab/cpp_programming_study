@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main4() {
 	enum class Color {
 		RED,
 		BLUE,
