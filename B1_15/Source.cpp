@@ -11,7 +11,7 @@ auto func(int x, int y) -> int; // trailing return 타입 : 코드 정리용으로 쓰는 �
 
 
 
-int main() {
+int main2() {
 	
 	auto a = 10; // int a = 10 | 자료형 추론
 	auto b = 123.0; // double
