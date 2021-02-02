@@ -20,7 +20,7 @@ enum Feel {
 	BLUE,
 };
 
-int main() {
+int main3() {
 	Color paint = COLOR_BLACK; 
 	Color house(COLOR_BLUE);
 	Color apple{ COLOR_RED };
