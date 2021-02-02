@@ -13,7 +13,7 @@ static int g_a = 10; // 전역 static => 다른 .cpp 파일에서 접근할 수 없음
 extern void external_func(); // extern은 생략 가능
 extern int external_var;
 
-int main() {
+int main6() {
 
 	external_func(); // hello file | forward declaration으로 실행 가능
 	cout << external_var << endl; // 1000
