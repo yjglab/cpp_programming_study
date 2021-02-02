@@ -3,7 +3,7 @@
 #include <limits>
 
 using namespace std;
-int main() {
+int main2() {
 	const char my_char[] = "hello, string";
 	const string my_str = "hello, string"; // 사용자 정의 자료형
 	string myId = "12345";
