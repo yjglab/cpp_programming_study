@@ -36,7 +36,7 @@ void printColorName(Colors color) {
 		break;
 	}
 }
-int main() {
+int main3() {
 	// 
 	int x;
 	if (x = 0) { // ¹Ì½ÇÇà
