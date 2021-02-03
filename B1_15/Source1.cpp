@@ -30,10 +30,10 @@ int main() {
 	float f4 = 3.14;
 	int i3 = f4;
 
-	cout << std::setprecision(12) << f2 << endl; // 0.123456791043 | 정밀도 부족
-	cout << std::setprecision(12) << d2 << endl; // 0.123456789
-	cout << std::setprecision(12) << f3 << endl; // 1234
-	cout << std::setprecision(12) << i3 << endl; // 3
+	cout << std::setprecision(12) << f2 << typeid(f2).name() << endl; // 0.123456791043 | 정밀도 부족
+	cout << std::setprecision(12) << d2 << typeid(d2).name() << endl; // 0.123456789
+	cout << std::setprecision(12) << f3 << typeid(f3).name() << endl; // 1234
+	cout << std::setprecision(12) << i3 << typeid(i3).name() << endl; // 3
 
 	// 우선 순위 : int < unsigned int < long < unsigned long < long long < unsinged long long < float < double < long double
 	cout << 5u - 10u << endl; // 4294967291 | 우선순위로 인해 int로 변환되지 않음
