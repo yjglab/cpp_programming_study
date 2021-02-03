@@ -36,7 +36,7 @@ struct Employee { // 2+(2)+4+8= 16bytes
 	double wage; // 8bytes
 };
 
-int main() {
+int main2() {
 
 	Person h1{
 	2.0,
