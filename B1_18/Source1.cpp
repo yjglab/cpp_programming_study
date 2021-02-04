@@ -23,7 +23,7 @@ void func(int hArr[]) { // parameter 자리에 들어온 hArr[]은 포인터이며, 배열이 �
 	cout << "Size hArr in func  : " << sizeof(hArr) << endl; // Size hArr in func  : 4 | x86
 }
 
-int main() {
+int main3() {
 	// *** array ***
 	
 	int var; // 1 var
