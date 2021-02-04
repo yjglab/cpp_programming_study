@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-int main() {
+int main5() {
 	// *** label , goto ***
 	// 사용빈도 낮음
 	// goto문은 label 위에서 존재할 수 없음
