@@ -37,6 +37,8 @@ int main2() {
 		}
 	}
 	
+	cout << endl;
+
 	//
 	for (int count = 1; count <= 100; ++count) {
 		cout << getRandNum(5, 8) << "\t";
@@ -53,7 +55,7 @@ int main2() {
 	std::uniform_int_distribution<> dice(1, 6); // 1~6 랜덤 수 선택 (모두 같은 확률)
 
 	for (int count = 1; count <= 20; ++count) {
-		cout << dice(mersenne); // 66126264231362232323
+		cout << dice(mersenne) << endl; // 66126264231362232323
 	}
 	return 0;
 }

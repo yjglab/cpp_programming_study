@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int main() {
+int main6() {
 	// *** 자료형에 가명 붙이기 Type aliases ***
 	typedef double distance_t; // distance_t 라는 가명의 자료형을 쓸때 double을 사용하겠음
 
