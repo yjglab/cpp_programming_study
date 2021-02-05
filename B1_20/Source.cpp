@@ -7,13 +7,13 @@ using namespace std;
 
 // parameter로 포인터를 받는 함수
 int* ptrFunc(int* ptr_a) {
-	return 0;
+	return nullptr;
 }
 
 struct something {
 	int a, b, c, d;
 };
-int main() {
+int main2() {
 	// *** pointer ***
 	int x = 5;
 	cout << &x << endl; // address of operator | ampersand
@@ -51,4 +51,5 @@ int main() {
 	cout << sizeof(something) << endl; // 16
 	cout << sizeof(ptr_st) << endl; // 4
 	return 0;
+
 }
