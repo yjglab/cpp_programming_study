@@ -22,7 +22,7 @@ void func2(myStruct *ms) { // array가 struct나 class안에 들어있을 경우, 파라미터
 	cout << (*ms).arr_s << endl; // arr_s 자체(즉, 주소)
 }
 
-int main() {
+int main5() {
 
 	// *** array == pointer ***
 	int arr[5] = { 9, 7, 5, 3, 1 };
