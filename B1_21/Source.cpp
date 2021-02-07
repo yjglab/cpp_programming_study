@@ -1,9 +1,9 @@
 #include <iostream>
 
 using namespace std;
-// *** 메모리 동적 할당 ***
+// *** 메모리 정적 할당 ***
 
-int main() {
+int main2() {
 	
 	// new int : int사이즈에 맞춰서 os로부터 메모리를 받고 그 메모리 주소를 가짐
 	int* ptr = new int{ 7 };
