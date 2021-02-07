@@ -2,6 +2,7 @@
 
 using namespace std;
 // *** 참조 변수 reference variable
+// reference 변수에는 리터럴 값을 직접 할당할 수 없음 | 상수 reference 변수에는 가능
 
 void func(int &n) { // reference를 사용하는 경우 변수 자체를 넘겨받음 | 그냥 n을 받는 경우 main에 영향을 주지 않음
 	cout << &n << endl; // 주소 동일
@@ -24,7 +25,7 @@ struct Some {
 struct Other {
 	Some srt;
 };
-int main5() {
+int main() {
 	int value = 5;
 	int& ref = value; // 내부적으로 ref와 value가 같은 변수처럼 작동
 
@@ -70,13 +71,13 @@ int main5() {
 
 	//
 	Other ot;
-	ot.srt.v1 = 1.0; // 일반적인 접근법
+	ot.srt.v1 = 1; // 일반적인 접근법
 	int& v1 = ot.srt.v1;
-	v1 = 1.0; // reference 사용을 통한 접근법 (매우 유용)
+	v1 = 1; // reference 사용을 통한 접근법 (매우 유용)
 
 	//
 	int val = 100;
-	int* const ptr = &val;
+	int* const ptr_v = &val;
 	int& ref_val = val;
 
 	/* *ptr = 10 == ref_val = 10 */
