@@ -26,7 +26,7 @@ int main4() {
 	}
 	cout << max_num << endl; // 890
 
-	// array를 동적 할당하는 경우엔 사용할 수 없으나 vector로 대체 가능
+	// for each는 array를 동적 할당하는 경우엔 사용할 수 없으나 vector로 대체 가능
 	vector<int> fibonacci_v = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 };
 	
 	return 0;
