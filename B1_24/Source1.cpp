@@ -19,4 +19,6 @@ int main3() {
 
 	int arr[] = { 10, 20 };
 	func(arr, 2); // 10 20
+
+	return 0;
 }
