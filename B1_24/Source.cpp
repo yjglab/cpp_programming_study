@@ -30,7 +30,7 @@ void printElement(int(&arr)[4]) { // 배열 크기 입력 필수 | 구차함
 void printElementUsingVector(const vector<int>& arr_v) { // vector array를 사용해 ref를 받는 방식
 }
 
-int main() {
+int main2() {
 	// call by value 값에 의한 전달
 	int x = 1;
 	int y = 2;
