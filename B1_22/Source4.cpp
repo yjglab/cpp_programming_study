@@ -28,8 +28,8 @@ int main() {
 	int* r1 = new int[col] {1, 2, 3, 4, 5}; // int*
 	int* r2 = new int[col] {6, 7, 8, 9, 10};
 	int* r3 = new int[col] {11, 12, 13, 14, 15};
-
-	int** rows = new int* [row] {r1, r2, r3}; // int*ÀÇ ¹è¿­
+	
+	int** rows = new int* [row] {r1, r2, r3}; // 
 
 	for (int r = 0; r < row; r++) {
 		for (int c = 0; c < col; c++) {
@@ -87,7 +87,8 @@ int main() {
 		}
 		cout << endl;
 	}
-	delete[] matrix;
+	delete[] matrixx;
+
 	/* 
 	r == 0
 	matrixx[0] = array[0][0]
