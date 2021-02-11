@@ -19,7 +19,7 @@ int sumTo(int sumto) {
 		return sumTo(sumto - 1) + sumto;
 	}
 }
-int main() {
+int main4() {
 	countDown(5); // 5 4 3 2 1 0
 	
 	cout << sumTo(10) << endl; // 55
