@@ -3,7 +3,7 @@
 using namespace std;
 
 // *** 명령줄 인수 command line arguments ***
-int main(int argc, char *argv[]) { // C컴파일러가 운영체제가 그렇게 작동할 수 있도록 미리 약속을 하게됨
+int main7(int argc, char *argv[]) { // C컴파일러가 운영체제가 그렇게 작동할 수 있도록 미리 약속을 하게됨
 	// Properties - Debugging - Command Arguments 부분에 값을 입력 (1024 라면_
 	for (int count = 0; count < argc; count++) {
 		std::string argv_single = argv[count]; // 
