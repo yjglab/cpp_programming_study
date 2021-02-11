@@ -20,7 +20,7 @@ bool isOdd(const int& num) {
 	if (num % 2 != 0) return true;
 	else return false;
 }
-void printNum(const array<int, 10>& my_arr, bool (*check_f)(const int&)) {
+void printNum(const array<int, 10>& my_arr, bool(*check_f)(const int&)) {
 	for (auto element : my_arr) {
 		if (check_f(element) == true) {
 			cout << element;
@@ -30,9 +30,9 @@ void printNum(const array<int, 10>& my_arr, bool (*check_f)(const int&)) {
 }
 
 // typedef (둘중 하나로 사용)
-typedef bool (*check_f_t)(const int&);
+typedef bool(*check_f_t)(const int&);
 // using (둘중 하나로 사용)
-using check_f_t = bool (*)(const int&);
+using check_f_t = bool(*)(const int&);
 void printNum2(const array<int, 10>& my_arr, check_f_t check_f = isEven) {
 	for (auto element : my_arr) {
 		if (check_f(element) == true) {
@@ -53,12 +53,12 @@ void printNum3(const array<int, 10>& my_arr,
 	cout << endl;
 }
 
-int main() {
+int main2() {
 	
 	cout << func << endl; // func의 주소 | 함수도 포인터
 	cout << func(1) << endl; // 5
 
-	// 함수포인터 : return type, parameter type이 각각 일치해야 사용 가능
+	// 함수포인터 : return type, parameter type이 할당할 값과 각각 일치해야 값을 할당 가능
 	int(*ptr_f)(int) = func;
 	cout << ptr_f(1) << endl; // 5 | ptr_f가 가리키고 있는 것을 출력
 	ptr_f = func2;
