@@ -10,7 +10,7 @@ void printVal(const std::array<int, 5>& arr_ref, const int& ix) {
 	cout << arr_ref[ix] << endl;
 }
 
-int main() {
+int main6() {
 	// assert() : 환경설정에서 모드설정에 따라 작동 유무 가능 | 기본값 Debug모드에서 작동
 	int number = 5;
 	assert(number == 5); // number가 반드시 5여야만 한다로 선언 | 5가 아니라면 error
