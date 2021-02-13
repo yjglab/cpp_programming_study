@@ -38,7 +38,7 @@ void printInfo(const string& name, const string& address, const int& age,
 		" " << weight << endl;
 }
 
-int main() {
+int main2() {
 	Friends group1{ "james", "pystreet", 15, 178, 68 };
 	printInfo(group1.name, group1.address, group1.age, group1.height, group1.weight);
 	group1.printInfo();
@@ -48,8 +48,6 @@ int main() {
 	vector<int> age_vec;
 	vector<double> height_vec;
 	vector<double> weight_vec;
-
-	/*printInfo(name_vec[0], addr_vec[0], age_vec[0], height_vec[0], weight_vec[0]);*/
 
 	// instanciation :  실제로 메모리를 차지하도록 정의하는 것
 	// group2와 같은 변수 => 우리가 표현하고자 하는 object 혹은 object를 구현하기 위해 만든 class의 instance
