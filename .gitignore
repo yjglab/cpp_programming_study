@@ -338,7 +338,3 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-
-# 숨김항목
-* .vcxproj.filters
-* .vcxproj
