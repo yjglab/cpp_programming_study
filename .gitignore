@@ -340,5 +340,4 @@ ASALocalRun/
 healthchecksdb
 
 # 숨김항목
-*.vcxproj.filters
-*.vcxproj
+
