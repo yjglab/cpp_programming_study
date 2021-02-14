@@ -72,3 +72,4 @@ int main() {
 	mycls2.getValue(); // const ver.
 	return 0;
 }
+//
