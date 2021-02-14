@@ -48,7 +48,7 @@ public:
 		}
 	}
 };
-int main() {
+int main2() {
 	Simple sp1(0);
 	Simple sp2(1);
 
