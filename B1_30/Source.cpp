@@ -48,7 +48,7 @@ public:
 	}
 	
 };
-int main() {
+int main2() {
 	const Cls cls1; // Constructor
 	/*cls1.setValue(3);*/
 
