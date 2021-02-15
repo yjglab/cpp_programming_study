@@ -3,16 +3,16 @@
 using namespace std;
 // *** const class 상수 클래스 ***
 
-class Cls {
+class Clss {
 public:
 	int _value = 0;
 
-	Cls(const Cls& cls_in) // 숨겨진 copy constructor
+	Clss(const Clss& cls_in) // 숨겨진 copy constructor
 	{
 		_value = cls_in._value;
 		cout << "Copy Constructor" << endl;
 	}
-	Cls()
+	Clss()
 	{
 		cout << "Constructor" << endl;
 	}
@@ -25,11 +25,11 @@ public:
 	}
 };
 
-void print(Cls cls_param) {
+void print(Clss cls_param) {
 	cout << cls_param._value << endl;
 }
 
-void print2(const Cls& cls_param2) { // copy constructor를 호출함
+void print2(const Clss& cls_param2) { // copy constructor를 호출함
 	cout << &cls_param2 << endl;
 	cout << cls_param2.getValue() << endl;
 }
@@ -49,7 +49,7 @@ public:
 	
 };
 int main2() {
-	const Cls cls1; // Constructor
+	const Clss cls1; // Constructor
 	/*cls1.setValue(3);*/
 
 	// 상수 클래스의 멤버 함수에 접근할 때 그 멤버 함수가 const인지 아닌지로 접근 가능/불가능
@@ -57,7 +57,7 @@ int main2() {
 	cout << endl;
 	cout << endl;
 
-	Cls cls2; // Constructor
+	Clss cls2; // Constructor
 	cout << &cls2 << endl; 
 
 	print2(cls2); 
