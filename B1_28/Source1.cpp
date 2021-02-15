@@ -50,7 +50,7 @@ public:
 		cout << _value << endl;
 	}
 };
-int main3() {
+int main() {
 	cls1 c1(1), c2(2);
 	c1.setId(2);
 	c2.setId(3);

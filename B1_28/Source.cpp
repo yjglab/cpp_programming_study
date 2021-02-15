@@ -58,9 +58,9 @@ int main2() {
 	cout << endl;
 	
 	// 소멸자 사용 예시
-	while (1) {
+	/*while (1) {
 		IntArr myIntArr(10000);
-	}
+	}*/
 
 
 	return 0;
