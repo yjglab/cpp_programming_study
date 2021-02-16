@@ -34,7 +34,7 @@ public:
 		/* return this->_value2; // 또한 this로 접근 가능한 모든 것은 사용할 수 없음*/
 	}
 
-	int temp() { // 일반적인 멤버함수 : 반드시 인스턴스에 종속된 형태로 사용되어야 함
+	int temp() { // 일반적인 멤버함수 : 반드시 특정 인스턴스에 종속된 형태로 사용되어야 함
 		return this->_value;
 	}
 };
@@ -47,7 +47,7 @@ int main() {
 	Cls cls1, cls2;
 	cout << cls1.getValue() << endl; // 1024
 
-	// non-static func를 포인터로 쓸 때
+	// non-static func를 포인터로 쓸 때 : 특정 인스턴스에 종속된 형태로 사용되어야 함
 	int(Cls:: * fptr1)() = &Cls::temp;
 	cout << (cls2.*fptr1)() << endl; // 1024
 
