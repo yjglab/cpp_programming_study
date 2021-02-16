@@ -14,7 +14,7 @@ public:
 	}
 };
 
-int main8() {
+int main() {
 
 	Accumulator acc;
 	cout << acc(10) << endl; // 10
