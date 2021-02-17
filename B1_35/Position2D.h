@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-class Position2D { // 재사용을 위한 구현
+class Position2D { // 재사용을 위한 구현 | 상위 클래스인 Monster에는 아무런 관련이 없어야함
 private:
 	int _x;
 	int _y;
