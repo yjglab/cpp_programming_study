@@ -83,7 +83,7 @@ int main5() {
 
 	//
 	cout << endl;
-	MyString str1 = hello; // assignment operator가 사용되었지만 copy constructor가 호출됨 | == MyString str1(hello);
+	MyString str1 = hello; // assignment operator가 사용되었지만 copy constructor가 호출됨 | 새로운 str1이 생성되는 부분이므로 | == MyString str1(hello);
 	MyString str2;
 	str2 = str1; // Assignment operator
 

@@ -16,7 +16,7 @@ int main() {
 	//while (1) {
 		//event
 		m1.moveTo(Position2D(1, 1));
-		cout << m1 << endl; // Sanson 0 0
+		cout << m1 << endl; // Sanson 1 1
 	//}
 	return 0;
 }
