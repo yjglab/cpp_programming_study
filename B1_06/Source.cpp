@@ -19,12 +19,12 @@ int main() {
 
 void usingMacro() {
 	// 매크로 사용
-	cout << MY_MACRO << endl; // 9
+	cout << MY_MACRO << endl; // I'm Macro
 	cout << MAX(1 + 3, 2) << endl; // 4
 
 	// 매크로 사용2
 #ifdef LIKE_APPLE // if defined
-	cout << "Apple" << endl;
+	cout << "Apple" << endl; // 실행
 #endif
 
 #ifndef LIKE_APPLE // if not defined

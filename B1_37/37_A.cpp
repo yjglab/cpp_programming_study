@@ -79,4 +79,6 @@ int main2() {
 
 	delete d1;
 	delete d2;
+	
+	return 0;
 }
