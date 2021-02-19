@@ -23,6 +23,10 @@ int main() {
 	cout << std::numeric_limits<short>::min() << endl; // -32768
 	cout << std::numeric_limits<short>::lowest() << endl; // -32768
 	cout << std::numeric_limits<unsigned int>::lowest() << endl; // 0
+	cout << std::numeric_limits<signed int>::max() << endl; // 2147483647
+	cout << std::numeric_limits<unsigned int>::max() << endl; // 4294967295
+	cout << std::numeric_limits<long>::max() << endl; // 2147483647
+	cout << std::numeric_limits<long long>::max() << endl; // 9223372036854775807
 
 	s = 32767;
 	s += 1; 

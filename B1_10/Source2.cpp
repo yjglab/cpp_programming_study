@@ -24,10 +24,10 @@ int main24() {
 	int n2l = 0b1011'1111'1010; // c++ 14이후 '는 무시 | 2진수 외 다른 진수에서도 사용
 	cout << n2l << endl; // 3066
 
-	//
+	// magic number의 사용은 권장하지 않음. 상수로라도 표현하기.
 	const int price_per_item = 10;
 	int num_items = 123;
-	int price = num_items * price_per_item; // magic number의 사용은 권장하지 않음. 상수로라도 표현하기.
+	int price = num_items * price_per_item; 
 
 	return 0;
 }

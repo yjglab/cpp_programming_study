@@ -14,6 +14,9 @@ int main() {
 	void* my_void;
 	my_void = (void*)&i;
 	my_void = (void*)&flt;
+	std::cout << my_void << std::endl; // 주소 동일
+	my_void = &flt;
+	std::cout << my_void << std::endl; // 주소 동일
 
 	// *** 부동소수점 Floating point ***
 	// (1) float : 최소 4byte, 전형적 4byte
@@ -32,7 +35,7 @@ int main() {
 	cout << numeric_limits<float>::max() << endl; // 3.40282e+38
 	cout << numeric_limits<double>::max() << endl; // 1.79769e+308
 	cout << numeric_limits<long double>::max() << endl; // 1.79769e+308
-
+	
 	// * min() : 표현 가능한 수 중 가장 작은 수의 절댓값
 	cout << numeric_limits<float>::min() << endl; // 1.17549e-38
 	cout << numeric_limits<double>::min() << endl; // 2.22507e-308
