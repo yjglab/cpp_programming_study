@@ -5,7 +5,7 @@ int main4() {
 	 // *** 포인터와 const ***
 	const int val = 5;
 	const int* ptr = &val;
-	/* *ptr = 50; de-referencing 불가 */
+	/* *ptr = 50; de-referencing하여 값 변경 불가 */
 	// val 이 상수가 아닐경우 val의 값은 바꿀 수 있지만 ptr이 상수 포인터 변수인 경우에도 de-referencing은 불가함
 	cout << *ptr << endl;
 

@@ -14,7 +14,7 @@ unsigned int PRNG() {  // Pseudo Random Number Generator
 }
 
 int getRandNum(int min, int max) {
-	static const double fraction = 1.0 / (RAND_MAX); // RAND_MAX : rand로 나올 수 있는 가장 큰 수
+	static const double fraction = 1.0 / (RAND_MAX + 1.0); // RAND_MAX : rand로 나올 수 있는 가장 큰 수
 	return min + static_cast<int>((max - min + 1) * (std::rand() * fraction));
 }
 int main2() {

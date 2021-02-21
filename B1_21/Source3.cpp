@@ -27,7 +27,7 @@ struct Other {
 };
 int main() {
 	int value = 5;
-	int& ref = value; // 내부적으로 ref와 value가 같은 변수처럼 작동
+	int& ref = value; // 내부적으로 ref와 value가 같은 변수처럼 작동 | 참조 관계
 
 	cout << ref << endl; // 5
 	ref = 10; // == *ptr = 10
