@@ -30,8 +30,8 @@ public:
 	}
 	// static member function
 	static int getValue() { // 특정 인스턴스에 관계 없이 모든 인스턴스가 사용할 수 있도록 함
-		return _value; // 당연하지만 this 포인터를 사용할 수 없음
-		/* return this->_value2; // 또한 this로 접근 가능한 모든 것은 사용할 수 없음*/
+		return _value; // 그렇기 때문에 this 포인터를 사용할 수 없음
+		/* return this->_value2; // 또한 this로 접근 가능한 방식은 사용할 수 없음*/
 	}
 
 	int temp() { // 일반적인 멤버함수 : 반드시 특정 인스턴스에 종속된 형태로 사용되어야 함

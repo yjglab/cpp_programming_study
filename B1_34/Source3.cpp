@@ -90,6 +90,12 @@ int main5() {
 	cout << (int*)str1._data << endl; // 서로
 	cout << (int*)hello._data << endl; // 주소가
 	cout << (int*)str2._data << endl; // 모두 다름
+
+	/*
+	구분 
+	MyString str1 = hello; => copy constructor 호출
+	str1 = hello; => Assignment operator 오버로딩
+	*/
 	
 
 	return 0;

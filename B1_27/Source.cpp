@@ -28,8 +28,7 @@ public: // access specifier (public, private, protected)
 	double weight;
 
 	void printInfo() {
-		cout << m_name << " " << address << " " << age << " " << height <<
-			" " << weight << endl;
+		cout << m_name << " " << address << " " << endl;
 	}
 };
 void printInfo(const string& name, const string& address, const int& age,
@@ -55,7 +54,7 @@ int main2() {
 
 	//
 	vector<Friends_cls> my_fnds;
-	my_fnds.resize(2);
+	my_fnds.resize(3);
 	for (auto& e : my_fnds) {
 		e.printInfo();
 	}

@@ -21,7 +21,7 @@ int main6() {
 
 	// static_assert() : compile time에서 확정적인 값이 들어와야함
 	const int a = 10;
-	static_assert(a == 10, "10이 아니라면 문구를 남길 수 있습니다");
+	static_assert(a == 10, "a가 10이 아니라면 이 문구가 출력됩니다");
 
 	return 0;
 }

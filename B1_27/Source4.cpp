@@ -26,10 +26,10 @@ public:
 };
 int main() {
 	Student s1(1, "james");
-	s1.print_q();
+	s1.print_q(); // 1 james
 
 	Student s2("Dash");
-	s2.print_q();
+	s2.print_q(); // 0 Dash
 	return 0;
 }
 
