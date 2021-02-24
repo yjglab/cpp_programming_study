@@ -41,7 +41,7 @@ private:
 }; 
 
 
-int main() {
+int main2() {
 	Derived2 d2(1);
 	// d2._i = 10; err | 기본적으로는 Derived2가 _i를 상속 받았지만 외부에서는 사용할 수 없음
 	d2._i = 10; // using Base2::_i 를 통해 접근 가능해짐
