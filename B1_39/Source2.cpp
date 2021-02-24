@@ -43,7 +43,7 @@ public:
 		cout << "소멸자 C" << endl;
 	}
 };
-int main() {
+int main4() {
 	CC c(1024, 3.14, 'a'); // 실행순서 : 생성자 AA - > BB -> CC -> 소멸자 CC -> BB -> CC
 
 	return 0;
