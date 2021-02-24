@@ -26,8 +26,13 @@ public:
 		cout << "Child Construction " << endl;
 	}
 };
-int main() {
+int main2() {
 	// 생성자 호출 순서 : Mother -> Child
 	Child c1;
+
+	//
+	cout << sizeof(Mother) << endl; // 4
+	cout << sizeof(Child) << endl; // 16 | padding
+
 	return 0;
 }
