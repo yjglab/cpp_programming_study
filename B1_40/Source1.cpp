@@ -47,6 +47,8 @@ int main3() {
 	myDevice.plugAndPlay();
 	myDevice.USBDevice::getID();
 	myDevice.NetworkDevice::getID();
+
+	return 0;
 }
 
 /* 다이아몬드 다중 상속은 문제가 있을 여지는 있으나 사용하는 경우는 있음
