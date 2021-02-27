@@ -20,6 +20,10 @@ public:
 		out << "This is base output" << endl;
 		return out;
 	}
+
+	int getI() {
+		return _i;
+	}
 };
 
 class Derived2 : public Base2 {
@@ -52,6 +56,7 @@ int main() {
 	cout << b2 << endl; // This is base output
 
 	Derived2 d2(7);
+	cout << b2.getI() << " " << d2.getI() << endl; // 5 7
 	d2.print(); 
 	cout << d2 << endl; 
 
