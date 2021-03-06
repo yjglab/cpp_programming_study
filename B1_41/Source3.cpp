@@ -30,12 +30,12 @@ void doSomething(IErrorLog& log) {
 	log.reportError("Runtime Error!!");
 }
 
-int main() {
+int main5() {
 	FileErrorLog file_log;
 	ConsoleErrorLog console_log;
 
-	doSomething(file_log);
-	doSomething(console_log);
+	doSomething(file_log); // Writing error to a file
+	doSomething(console_log); // Printing error to a console
 
 	return 0;
 }
